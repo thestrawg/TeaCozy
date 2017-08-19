@@ -1,0 +1,19 @@
+div, header, footer {
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+}
+.mission {
+  display: flex;
+}
+.tea-selection {
+  display: flex;
+}
+.locations {
+  display: flex;
+}
+footer {
+  display: flex;
+}
