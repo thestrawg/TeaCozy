@@ -10,6 +10,8 @@ body {
   opacity: 0.9;
 }
 
+/* -- Header -- */
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -38,20 +40,11 @@ nav span {
   text-decoration: underline;
 }
 
+/* -- Main content -- */
+
 main {
   padding-top: 70px;
   opacity: 0.9;
-}
-
-.mission {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url('../images/img-mission-background.jpg');
-  height: 700px;
-  width: 1200px;
-  margin: auto;
 }
 .black-text-container {
   width: 100%;
@@ -62,6 +55,20 @@ main {
   margin: 0;
   padding: 10px;
 }
+
+/* Mission */
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Products */
 .store-selection {
   display: flex;
   justify-content: center;
@@ -84,6 +91,8 @@ main {
   height: 200px;
   margin-bottom: 10px;
 }
+
+/* Store locations */
 .locations {
   display: flex;
   background-image: url('../images/img-locations-background.jpg');
@@ -121,10 +130,10 @@ main {
   margin: 0;
 }
 
+/* Footer & copyright */
 footer {
   height: 200px;
 }
-
 .copyright {
   text-align: left;
   margin-left: 20px;
